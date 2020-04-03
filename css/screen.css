@@ -198,6 +198,10 @@ a:focus {
     padding: 48px 24px 24px;
 }
 
+.o-row—neutral-x-light{
+    background-color: #F7f7f7f7;
+}
+
 @media (min-width: 768px) {
     html {
         font-size: 20px;
