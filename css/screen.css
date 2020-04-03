@@ -618,8 +618,94 @@
   .c-header__nav {
       display: none;
   }
+
+  /*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    font-size:18px;
+    line-height:24px;
+    position: relative;
+}
+
+.c-footer__logo {
+    /* background:green; */
+
+}
+
+.c-footer__nav {
+    /* background:blue; */
+}
+
+@media (min-width: 768px) {
+    .c-logo{
+        height:40px;
+    }
+    .c-footer {
+    }
+
+    .c-footer__logo {
+        display:flex;
+        justify-content: center;
+
+    }
+
+    .c-footer__nav {
+        display:flex;
+        justify-content: center;
+
+        /* margin:0 auto; */
+        /* align-content:space-round */
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+        /* position: absolute;
+        width:100%;
+        top:40px;
+        left:-40px;
+       */
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+    }
+
+    .c-footer__logo .c-logo {
+        
+    }
+
+    .c-footer__nav {
+       
+        justify-content: space-between;
+    }
+}
+
   
-  
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+}
+
+.c-title-icon__icon {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+}
   
       
   
