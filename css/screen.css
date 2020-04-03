@@ -696,15 +696,11 @@
 */
 
 .c-title-icon {
+    display: flex;
 }
 
 .c-title-icon__icon {
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 1200px) {
+    height: 6em;
 }
   
       
