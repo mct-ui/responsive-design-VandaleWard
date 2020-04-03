@@ -378,7 +378,7 @@
       Small cta link with custom animation
   */
   
-  .c-link-cta {
+  .c-link-cta { 
     position: relative;
     display: inline-block;
     text-decoration: none;
